@@ -1,0 +1,80 @@
+body{
+    background: #E7E3F1;
+  }
+  
+  h1{
+    background: #E9B942;
+    margin:0;
+    padding: 10px 10px 10px 15px;
+  }
+  
+  .sign{
+    align-items: center;
+    float: right;
+    text-align: center;
+  }
+
+  .sign:hover{
+      cursor: pointer;
+  }
+  
+  .inputs{
+    background:#EBE9E5;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-right:0;
+    margin-left: 69%;
+    position:fixed;
+    box-shadow: rgba(0, 0, 0, 0.3) -2px 8px 8px 0px;
+  }
+  
+  .inputs>input{
+    font-size:20px;
+    padding:3px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  .inputs>textarea{
+    font-size: 20px;
+    margin-bottom:10px;
+  }
+  .inputs>button{
+    background: linear-gradient(to right, #EEDAAB, #E9B942);
+    font-size: 20px;
+    padding:5px;
+    font-weight: bold;
+    border:none;
+    border-radius: 5px;
+  }
+  .NoteCard{
+    width:250px;
+    float: left;
+    margin: 20px 20px 0 35px;
+    padding:20px;
+    background:#EEDAAB;
+    height:300px;
+  }
+  .NoteCard>h2>img{
+    float: right;
+    width:15px;
+    height:15px
+  }
+  .PageContent{
+    position:relative
+  }
+  .Notes{
+    margin:0 auto 0 auto;
+  }
+  button:disabled{
+    background:gray;
+  }
+  .noData>h2{
+   margin:100px 400px 0 400px; 
+   padding:90px;
+   border:2px solid black;
+   text-align: center;
+   position:fixed;
+  }
+  
